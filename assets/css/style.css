@@ -91,6 +91,31 @@
     padding-bottom: 137px;
 }
 
+/* thumb-print */
+.max-w-1225 {
+    max-width: 1225px !important;
+}
+
+.pt-78 {
+    padding-top: 78px;
+}
+
+.max-w-781 {
+    max-width: 781px;
+}
+
+.right-12 {
+    right: 12px;
+}
+
+.left-12 {
+    left: 12px;
+}
+
+.max-w-422 {
+    max-width: 422px;
+}
+
 @media (min-width:992px) {
     .gap-80 {
         gap: 80px;
@@ -154,5 +179,9 @@
     .py-137 {
         padding-top: 40px;
         padding-bottom: 40px;
+    }
+
+    .pt-78 {
+        padding-top: 40px;
     }
 }

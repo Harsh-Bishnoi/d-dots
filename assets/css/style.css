@@ -21,10 +21,6 @@
     margin-bottom: 32px;
 }
 
-.max-w-477 {
-    max-width: 477px;
-}
-
 .pb-156 {
     padding-bottom: 156px;
 }
@@ -194,6 +190,10 @@
     .max-w-365 {
         max-width: 365px;
     }
+
+        .max-w-477{
+            max-width: 477px;;
+        }
 }
 
 @media (max-width: 991.98px) {

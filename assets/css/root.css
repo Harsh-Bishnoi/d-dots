@@ -1,0 +1,12 @@
+:root{
+    --fs-sm:36px;
+    --fs-md:54px;
+}
+
+.fs-sm{
+    font-size:var(--fs-sm);
+}
+
+.fs-md{
+    font-size:var(--fs-md);
+}

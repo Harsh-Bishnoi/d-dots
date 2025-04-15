@@ -1,12 +1,20 @@
-:root{
-    --fs-sm:36px;
-    --fs-md:54px;
+
+:root {
+    --fs-sm: 36px;
+    --fs-md: 54px;
+    --bg-dark-blue: #0F222D;
 }
 
-.fs-sm{
-    font-size:var(--fs-sm);
+/* font size  */
+.fs-sm {
+    font-size: var(--fs-sm);
 }
 
-.fs-md{
-    font-size:var(--fs-md);
+.fs-md {
+    font-size: var(--fs-md);
+}
+
+/* color */
+.bg-dark-blue {
+    background-color: var(--bg-dark-blue);
 }

@@ -1,0 +1,67 @@
+@import url(./root.css);
+
+.max-w-1058 {
+    max-width: 1058px !important;
+}
+
+.lh-100 {
+    line-height: 100%;
+}
+
+.lh-160 {
+    line-height: 160%;
+}
+
+.opacity-70 {
+    opacity: 70%;
+}
+
+.mb-32 {
+    margin-bottom: 32px;
+}
+
+.max-w-477 {
+    max-width: 477px;
+}
+
+.pb-156 {
+    padding-bottom: 156px;
+}
+
+.pt-193 {
+    padding-top: 193px;
+}
+
+.max-w-461 {
+    max-width: 461px;
+}
+
+@media (max-width: 991.98px) {
+    .pb-156 {
+        padding-bottom: 120px;
+    }
+
+    .pt-193 {
+        padding-top: 120px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .pb-156 {
+        padding-bottom: 80px;
+    }
+
+    .pt-193 {
+        padding-top: 80px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .pb-156 {
+        padding-bottom: 40px;
+    }
+
+    .pt-193 {
+        padding-top: 40px;
+    }
+}

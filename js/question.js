@@ -1,3 +1,4 @@
+// sum of number
 let a = 10, b = 20, c = 30;
 function Numbers(a, b, c) {
     let sum = a + b + c;
@@ -6,7 +7,7 @@ function Numbers(a, b, c) {
 
 Numbers(a, b, c);
 
-//
+// check strimg is palindrome or not
 function Palindrome(string) {
     const reversed = string.split('').reverse().join('');
     if (string === reversed) {

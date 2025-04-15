@@ -1,4 +1,5 @@
 :root {
+    --font-family-primary: 'Articulat CF', sans-serif;
     /* font size */
     --fs-extra-small: 14px;
     --fs-sm: 36px;
@@ -8,8 +9,12 @@
     --bg-light-blue: #11222C;
     --bg-red: #9A0000;
     --color-white: #FFFFFF;
-    --color-light:#FFFFFF3D;
-    --color-white-light:#FFFFFF29;
+    --color-light: #FFFFFF3D;
+    --color-white-light: #FFFFFF29;
+}
+
+.font-family-primary{
+    font-family: var(--font-family-primary);
 }
 
 /* font size  */

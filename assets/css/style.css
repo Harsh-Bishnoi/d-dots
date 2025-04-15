@@ -16,6 +16,7 @@
     opacity: 70%;
 }
 
+/* about us */
 .mb-32 {
     margin-bottom: 32px;
 }
@@ -36,6 +37,31 @@
     max-width: 461px;
 }
 
+/* Brand story */
+.bg-img-3 {
+    background-image: url(../images/png/brand-story-bg-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.max-w-632 {
+    max-width: 670px !important;
+}
+
+.py-251 {
+    padding-top: 251px;
+    padding-bottom: 251px;
+}
+
+.left-0 {
+    left: 0;
+}
+
+.right-0 {
+    right: 0;
+}
+
 @media (max-width: 991.98px) {
     .pb-156 {
         padding-bottom: 120px;
@@ -43,6 +69,11 @@
 
     .pt-193 {
         padding-top: 120px;
+    }
+
+    .py-251 {
+        padding-top: 120px;
+        padding-bottom: 120px;
     }
 }
 
@@ -54,6 +85,11 @@
     .pt-193 {
         padding-top: 80px;
     }
+
+    .py-251 {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
 }
 
 @media (max-width: 575.98px) {
@@ -63,5 +99,10 @@
 
     .pt-193 {
         padding-top: 40px;
+    }
+
+    .py-251 {
+        padding-top: 40px;
+        padding-bottom: 40px;
     }
 }

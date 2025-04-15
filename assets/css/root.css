@@ -1,10 +1,21 @@
 :root {
+    /* font size */
+    --fs-extra-small: 14px;
     --fs-sm: 36px;
     --fs-md: 54px;
+    /* color */
     --bg-dark-blue: #0F222D;
+    --bg-light-blue: #11222C;
+    --bg-red: #9A0000;
+    --color-white: #FFFFFF;
+    --color-light:#FFFFFF3D;
 }
 
 /* font size  */
+.fs-extra-small {
+    font-size: var(--fs-extra-small);
+}
+
 .fs-sm {
     font-size: var(--fs-sm);
 }
@@ -16,6 +27,14 @@
 /* color */
 .bg-dark-blue {
     background-color: var(--bg-dark-blue);
+}
+
+.bg-light-blue {
+    background-color: var(--bg-light-blue);
+}
+
+.bg-red {
+    background-color: var(--bg-red);
 }
 
 @media (max-width:767.98px) {

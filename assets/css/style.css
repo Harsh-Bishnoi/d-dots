@@ -43,7 +43,7 @@
     transition: all 300ms linear;
     transform-origin: left;
     border-radius: 10px;
-    background-color: #fff;
+    background-color: var(--color-white);
 }
 
 .rotate40 {
@@ -124,25 +124,33 @@
 }
 
 .right-nav-icon {
-    padding: 9px;
-    border: 1px solid #FFFFFF3D;
+    height: 36px;
+    width: 36px;
+    border: 1px solid var(--color-light);
     backdrop-filter: blur(10px);
     border-radius: 100%;
-    background-color: #202225;
+    background-color: var(--color-blue);
     transition: all 200ms linear;
 }
 
 .right-nav-icon:hover {
-    background-color: white;
+    background-color: var(--color-white);
 }
 
 .right-nav-icon:hover path {
-    fill: black;
+    fill: var(--color-black);
 }
 
 /* about us */
 .mb-32 {
     margin-bottom: 32px;
+}
+
+.bg-img-2 {
+    background-image: url(../images/png/about-us-bg-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .pb-156 {

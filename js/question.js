@@ -6,6 +6,13 @@ function Numbers(a, b, c) {
 }
 
 Numbers(a, b, c);
+// larger-number
+function LargestNumber(numbers) {
+    const largest_Number = Math.max(...numbers);
+    console.log("The largest number is: " + largest_Number);
+}
+
+LargestNumber([12, 45, 78, 23, 89, 34]);
 
 // check strimg is palindrome or not
 function Palindrome(string) {
@@ -29,11 +36,3 @@ function factorial(n) {
 }
 
 factorial(5);
-
-// larger-number
-function LargestNumber(numbers) {
-    const largest_Number = Math.max(...numbers);
-    console.log("The largest number is: " + largest_Number);
-}
-
-LargestNumber([12, 45, 78, 23, 89, 34]);

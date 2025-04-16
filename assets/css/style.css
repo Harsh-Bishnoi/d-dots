@@ -73,10 +73,11 @@
 .nav-tags {
     transform: rotate(-90deg);
     white-space: nowrap;
+    padding-bottom: 50px;
 }
 
 .gap-32 {
-    gap: 103px;
+    gap: 60px;
 }
 
 .lh-160 {
@@ -367,6 +368,10 @@
 
     .gap-32 {
         gap: 32px;
+    }
+
+    .nav-tags {
+        padding-bottom: 0px;
     }
 }
 
